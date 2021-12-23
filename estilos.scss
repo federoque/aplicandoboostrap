@@ -1,0 +1,110 @@
+$rojo: rgb(224, 14, 13);
+$blanco: rgb(260,260,260);
+$gristransp: rgba(45,45 ,46, 0.7);
+$gris: rgb(45,45,46);
+$titulo:50px;
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+
+#collapsibleNavbar{
+    font-size: 20px;
+    padding-right: 10px;
+    animation-name: efecto_nav;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+}
+
+@keyframes efecto_nav{
+    0% {transform: translateX(100%);}
+    }
+
+.nav-item{
+    padding-right: 7px;
+}
+
+#collapsibleNavbar .nav-link:hover{
+    color: $rojo;
+}
+
+@media screen and (max-width:768px) {
+
+    #collapsibleNavbar{
+        margin-top: -20px;
+    }
+
+    #collapsibleNavbar .nav-link{
+        border-bottom: 1px solid #fff;
+        padding-left: 100px;
+        padding-right: 20px;
+    } 
+}
+
+.logo{
+    height: 74px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}  
+    
+.navbar{
+    padding: 0 7px 0 5px;
+}
+
+.jumbotron{
+background-image: url(images/frontal.jpg);
+width: 100%;
+background-size: cover;
+background-position: center;
+min-height: 400px;
+position: relative;
+top: 80px;
+}
+
+.jumbotron h1{
+    position: absolute;
+    color: $blanco;
+    background-color: $gristransp;
+    top:300px;
+    font-size: $titulo;
+    padding-right: 35%;
+    padding-top:2px;
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width:600px) {
+
+    .junbotron{
+        min-height: 350px;
+    }
+    .jumbotron h1{ 
+
+        font-size: 30px;
+    }
+}
+
+.btn-dark{
+    margin: auto;
+    font-size: 20px;
+}
+.main{
+    margin: 90px 30px 0 30px;
+    text-align: center;
+    border-bottom: 2px solid $gris;
+    width: 100%;
+}
+
+.main_h2{
+    margin-bottom: 0;
+    border-bottom: 2px solid $gris;
+    }
+.principal{
+    margin-top:20px;
+}
+.principal img{
+    border-radius: 50%;
+    border: 2px solid $gris;
+    max-width: 500px;
+}
