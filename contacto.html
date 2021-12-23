@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto- Arenera Roque</title>
+    <link rel="icon" type="image/jpg" href="images/logo_favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+       <!-- Nabvar inicio -->
+
+       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html"><img  class="logo" src="images/logo.jpg" alt="Logo"></a>
+    
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse row justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+    <main class="main_contacto">
+        <h1 class="contacto_h1">CONTACTO</h1>
+        <img class="imagen_contacto" src="images/contactowsp.jpg" alt="">
+        <h2 class="contacto_h2">Completa el siguiente formulario y nos comunicaremos a la brevedad</h2>
+        <form class="contacto_form" action="">
+            <h4 class="nya">Nombre y Apellido</h4>
+            <input class="nya_in" type="text" required>
+            <h4 class="mail">E-mail</h4>
+            <input class="mail_in" type="email" required>
+            <h4 class="tel">Teléfono de contacto</h4>
+            <input class="tel_in" type="number">
+            <h4 class="motivo">Motivo de contacto</h4>
+            <div class="motivo_div">
+                <h5>Solicitud de materiales o servicios</h5>
+                <input type="radio" name="Motivo" value="Pedido">
+                <h5>Consulta o solicitud de presupuesto</h5>
+                <input type="radio" name="Motivo" id="Consulta">
+            </div>
+            <h4 class="mensaje">Mensaje</h4>
+            <textarea class="mensaje_area" name="" id="" cols="70" rows="10" required placeholder="Escriba su mensaje"></textarea>
+            <div class="botones">
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <h3>0291-4554555  |  0291-4538529  |  0291-4545444  |  Nicaragua 1485 - Bahía Blanca (8000)
+         </h3>
+        <h3>TAMBIÉN PODÉS ENCONTRARNOS EN REDES</h3>
+        <div class="footer_redes">
+            <a href="https://api.whatsapp.com/send?phone=542914250408" target="_blank"><img src="images/whatsapp.jpg" alt="WhatsApp"></a>
+
+            </a><a href="https://web.facebook.com/areneraroque/" target="_blank"><img src="images/facebook.jpg" alt="Facebook"></a>
+
+            </a><a href="https://www.instagram.com/areneraroque/" target="_blank"><img src="images/instagram.jpg" alt=""></a>
+        </div>
+
+        <div class="derechos">
+            <p>
+            ©2021 ARENERA ROQUE |
+            Todos los derechos reservados   
+            </p>
+            <p>
+            Copyright © 2021  |   Aviso legal
+            </p>
+        </div>    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+</script>
+
+</body>
+</html>
